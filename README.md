@@ -17,7 +17,7 @@
 
 News and Updates
 -----------------
-- Code Release coming soon! (est. Mid-May to Late-May)
+- Code Release coming soon! (est. in June)
 
 Citation
 ---------------
