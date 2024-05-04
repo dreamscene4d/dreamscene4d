@@ -11,7 +11,7 @@
 <table>
   <tr>
     <td><video src="https://github.com/dreamscene4d/dreamscene4d/assets/47765488/993d13ea-4d07-4d27-988e-7b6480234eaa" width="320"></video></td>
-    <td><video src="https://github.com/dreamscene4d/dreamscene4d/assets/47765488/b7600337-756e-4295-ac28-9cb2a45deef6" width="320"></video></td>
+    <td><img src="demo-1.gif" width="320"></td>
     <td><video src="https://github.com/dreamscene4d/dreamscene4d/assets/47765488/c219b3e3-2469-42af-a0ba-12a8fc97cbe3" width="320"></video></td>
   </tr>
 </table>
