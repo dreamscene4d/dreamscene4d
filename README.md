@@ -1,16 +1,14 @@
-### Hi there 👋
+# DreamScene4D: Dynamic Multi-Object Scene Generation from Monocular Videos
+[**[Project Page]**](https://dreamscene4d.github.io/) **[Paper]**
 
-<!--
-**dreamscene4d/dreamscene4d** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<table>
+  <tr>
+    <td><img src="visual_demo/stroller-demo.mp4" width="250"></td>
+    <td><img src="visual_demo/rollerblade-demo.mp4" width="250"></td>
+    <td><img src="visual_demo/breakdance-demo.mp4" width="250"></td>
+  </tr>
+</table>
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+News and Updates
+-----------------
+- Code Release coming soon! (est. Mid-May to Late-May)
