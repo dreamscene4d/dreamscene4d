@@ -3,9 +3,9 @@
 
 <table>
   <tr>
-    <td><img src="visual_demo/stroller-demo.mp4" width="250"></td>
-    <td><img src="visual_demo/rollerblade-demo.mp4" width="250"></td>
-    <td><img src="visual_demo/breakdance-demo.mp4" width="250"></td>
+    <td><img src="visual_demos/stroller-demo.mp4" width="250"></td>
+    <td><img src="visual_demos/rollerblade-demo.mp4" width="250"></td>
+    <td><img src="visual_demos/breakdance-demo.mp4" width="250"></td>
   </tr>
 </table>
 
