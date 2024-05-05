@@ -32,4 +32,4 @@ If you find DreamScene4D useful in your research or refer to the provided baseli
 ```
 
 ## Acknowledgments
-- Thanks [DreamGaussian4D](https://jiawei-ren.github.io/projects/dreamgaussian4d/) for their public code and released models.
+- Thanks to [DreamGaussian](https://dreamgaussian.github.io/), [DreamGaussian4D](https://jiawei-ren.github.io/projects/dreamgaussian4d/), and [3D Gaussian Splatting](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) for their public code and released models.
