@@ -1,8 +1,7 @@
 # DreamScene4D: Dynamic Multi-Object Scene Generation from Monocular Videos
 
 
-> [**DreamScene4D: Dynamic Multi-Object Scene Generation from Monocular Videos**](https://dreamscene4d.github.io/)           
-> [Project Page](https://dreamscene4d.github.io/)           
+> [**DreamScene4D: Dynamic Multi-Object Scene Generation from Monocular Videos**](https://dreamscene4d.github.io/)            
 > Carnegie Mellon University   
 > Wen-Hsuan Chu*, Lei Ke*, Katerina Fragkiadaki    
 
