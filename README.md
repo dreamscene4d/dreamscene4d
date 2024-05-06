@@ -5,7 +5,7 @@
 > Carnegie Mellon University   
 > Wen-Hsuan Chu*, Lei Ke*, Katerina Fragkiadaki    
 
-### [**[Project Page]**](https://dreamscene4d.github.io/) **|** **[Paper]**
+### [**[Project Page]**](https://dreamscene4d.github.io/) **|** [**[Paper]**](https://arxiv.org/abs/2405.02280)
 
 <table>
   <tr>
