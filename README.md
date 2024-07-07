@@ -16,7 +16,7 @@
 
 News and Updates
 -----------------
-- Code Release coming soon! (est. in June)
+- Code Release coming soon! (est. in June, a bit delayed due to code organization effort)
 
 Citation
 ---------------
