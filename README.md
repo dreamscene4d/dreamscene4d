@@ -129,7 +129,7 @@ python main.py --config configs/image.yaml input=./data/JPEGImages/rollerblade/0
 # Stage 2: Deformation optimization, for fast results, try iters=(30 * Number of frames).
 # On custom videos, you can try iters=(50 * Number of frames) or even iters=(100 * Number of frames)
 # if the results from less optimation iterations don't look good.
-python main_4d.py --config configs/4d.yaml iters=300 input=./data/JPEGImages/rollerblade input_mask=./data/Annotations/rollerblade/001 outdir=./gaussians visdir=./vis save_path=lucia_1
+python main_4d.py --config configs/4d.yaml iters=1000 input=./data/JPEGImages/rollerblade input_mask=./data/Annotations/rollerblade/001 outdir=./gaussians visdir=./vis save_path=lucia_1
 
 # Stage 3: Scene composition
 python main_4d_compose.py --config configs/4d.yaml input=./data/JPEGImages/rollerblade input_mask=[./data/Annotations/rollerblade/001/00000.png] outdir=./gaussians visdir=./vis save_path=lucia
