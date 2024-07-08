@@ -1,0 +1,30 @@
+torch >= 2.0.0
+tqdm
+rich
+ninja
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+imageio
+imageio-ffmpeg
+omegaconf
+
+einops
+plyfile
+pygltflib
+
+# for stable-diffusion
+huggingface_hub
+accelerate
+transformers
+
+# for dmtet and mesh export
+xatlas
+trimesh
+PyMCubes
+pymeshlab==0.2
+kornia
+opencv-python
+torchmetrics

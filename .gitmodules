@@ -1,0 +1,6 @@
+[submodule "gmflow"]
+	path = gmflow
+	url = https://github.com/haofeixu/gmflow
+[submodule "diff-gaussian-rasterization"]
+	path = diff-gaussian-rasterization
+	url = https://github.com/ashawkey/diff-gaussian-rasterization
