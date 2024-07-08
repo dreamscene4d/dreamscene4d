@@ -107,7 +107,7 @@ Like in demo 1, you can run ```python run_no_inpaint.py --help``` to see other o
 
 ---
 
-For demo 3 and demo 4, we will demonstrate the usage of the stage-by-stage optimization scripts. This is solely for explanation purposes, you can use the fully-provided scripts to achieve the same effect.
+For demo 3 and demo 4, we will demonstrate the usage of the stage-by-stage optimization scripts. This is solely for explanation purposes, you can use the fully-automatic scripts to produce the same results.
 
 ### Demo 3
 <table>
@@ -124,15 +124,15 @@ This example contains a person jumping on rollerblades. To run the stage-by-stag
 # while incrementing the save_path by 1 (e.g. XXX_1, XXX_2, ...).
 
 # Stage 1: 3D Gaussian optimization
-python main.py --config configs/image.yaml input=./data/JPEGImages/rollerblade/00000.png input_mask=./data/Annotations/rollerblade/001/00000.png outdir=./gaussians visdir=./vis save_path=lucia_1
+python main.py --config configs/image.yaml input=./data/JPEGImages/rollerblade/00000.png input_mask=./data/Annotations/rollerblade/001/00000.png outdir=./gaussians visdir=./vis save_path=rollerblade_1
 
 # Stage 2: Deformation optimization, for fast results, try iters=(30 * Number of frames).
 # On custom videos, you can try iters=(50 * Number of frames) or even iters=(100 * Number of frames)
 # if the results from less optimation iterations don't look good.
-python main_4d.py --config configs/4d.yaml iters=1000 input=./data/JPEGImages/rollerblade input_mask=./data/Annotations/rollerblade/001 outdir=./gaussians visdir=./vis save_path=lucia_1
+python main_4d.py --config configs/4d.yaml iters=1000 input=./data/JPEGImages/rollerblade input_mask=./data/Annotations/rollerblade/001 outdir=./gaussians visdir=./vis save_path=rollerblade_1
 
 # Stage 3: Scene composition
-python main_4d_compose.py --config configs/4d.yaml input=./data/JPEGImages/rollerblade input_mask=[./data/Annotations/rollerblade/001/00000.png] outdir=./gaussians visdir=./vis save_path=lucia
+python main_4d_compose.py --config configs/4d.yaml input=./data/JPEGImages/rollerblade input_mask=[./data/Annotations/rollerblade/001/00000.png] outdir=./gaussians visdir=./vis save_path=rollerblade
 ```
 
 ### Demo 4
