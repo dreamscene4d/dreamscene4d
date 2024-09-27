@@ -23,7 +23,7 @@ transformers
 # for dmtet and mesh export
 xatlas
 trimesh
-PyMCubes
+PyMCubes==0.1.4
 pymeshlab==0.2
 kornia
 opencv-python
