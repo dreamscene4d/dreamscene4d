@@ -301,10 +301,10 @@ Citation
 ---------------
 If you find DreamScene4D useful in your research or refer to the provided baseline results, please star this repository and consider citing:
 ```
-@article{dreamscene4d,
+@inproceedings{dreamscene4d,
   title={DreamScene4D: Dynamic Multi-Object Scene Generation from Monocular Videos},
   author={Chu, Wen-Hsuan and Ke, Lei and Fragkiadaki, Katerina},
-  journal={NeurIPS},
+  booktitle={NeurIPS},
   year={2024}
 }
 ```
